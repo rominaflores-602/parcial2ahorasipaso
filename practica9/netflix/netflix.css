@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #141414;
+	color: white;
+}
+
+/*AQUI HARE MAS TARDE EL HEADER*/
+
+
+header .logo img{
+	width: 10%;
+}
+
+main .contenedor{
+	width:90%;
+	margin: 0 auto;
+	background: #141414;
+}
+ 
+main .perfil .foto{
+	width: 150px;
+	height: 150px;
+	background: salmon;
+	border:5px solid #262525;
+}
+main .perfil .foto:hover{
+	border:5px solid white;
+	transition: 0.5s;
+}
+
+main .perfiles{
+	display: flex;
+	justify-content: space-evenly;
+}
+main .perfiles .nombre{
+	margin:15px 0;
+	text-align: center;
+}
+
+main .bienvenida{
+	text-align: center;
+	margin: 40px;
+	font-size: 30px;
+}
+
+.boton a{
+	color: #8c8c8c;
+	text-decoration: none;
+	border: 1px solid #8c8c8c;
+	padding: 20px;
+	display: inline-block;
+}
+
+.boton a:hover{
+	color: white;
+	border: 1px solid white;
+	transition: 0.5s;
+}
+ .boton{
+	text-align: center;
+	margin: 50px 0;
+}
+footer {
+	text-align: center;
+	padding: 30px;
+}
+
+main .perfiles .foto img{
+	width: 100%;
+	height: 100%;
+}
+
+.volver{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.volver a:hover{
+    background: #8b0000;
+}
+
+.volver a{
+    background: pink;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

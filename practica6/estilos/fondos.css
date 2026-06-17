@@ -1,0 +1,67 @@
+body{
+	background: url("../img/oriental.webp");
+	font-family: verdana;
+
+}
+
+header,main, footer {
+	background: white;
+	width: 70%;
+	margin: 10px auto;
+	padding: 15px ;
+	border-radius: 20px ;
+
+}
+/*centrar texto en header y footer*/
+
+
+
+header, footer {
+	text-align: center;
+}
+
+
+/*Texto de caja main, justificado y con mayor inertelineado*/
+
+
+
+main p{
+	text-align: justify;
+	line-height: 32px;
+}
+
+
+main:hover{
+	background: pink;
+	color: white;
+}
+
+header:hover{
+	background: skyblue;
+	color: white;
+}
+
+footer:hover{
+	background: violet;
+	color: white;
+}
+
+.volver{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.volver a:hover{
+    background: #8b0000;
+}
+
+.volver a{
+    background: pink;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

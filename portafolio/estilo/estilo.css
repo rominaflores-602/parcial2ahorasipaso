@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: pink;
+}
+header{
+	justify-content: center;
+
+}
+.perfil img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+header .info{
+	padding: 50px;
+	text-align: center;
+}
+
+main .botones img{
+width: 400px;
+height: auto;
+cursor: pointer;
+transition: 0.3s;
+}
+
+main .botones img:hover{
+transform: scale(1.05);
+}
+
+main .botones a{
+	display: inline-block;
+	margin: 10px;
+}
+
+main .botones{
+	text-align: center;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+

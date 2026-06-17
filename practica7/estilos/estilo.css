@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+body{
+	background: pink;
+	font-family: "Merriweather", serif;
+}
+
+
+header{
+	width:100%;
+	background:url("../img/portada.jpg")burlywood;
+	height: 300px;
+
+}
+
+main{
+	background: white;
+	width:100%;
+	padding: 20px ;
+}
+
+main .perfil{
+	background: gray;
+	width:150px;
+	height: 150px;
+	border-radius:100%;
+	margin-top: -100px;
+	border:  5px solid white;
+}
+main .perfil img {
+	width:100%;
+	border-radius:100%;
+}
+
+main .texto h2{
+	margin:15px 0;
+}
+footer{
+	background: #2d2a29;
+	font-size: 30px;
+	text-align: center;	
+	padding: 25px;
+	color: #d8e2dc;
+}
+
+footer a{
+	color: #d8e2dc;
+	display: inline-block;
+	margin:10px 15px;
+}
+.contenedor{
+	width:70%;
+	margin: 0 auto;
+}
+
+.volver{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.volver a:hover{
+    background: #8b0000;
+}
+
+.volver a{
+    background: pink;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
